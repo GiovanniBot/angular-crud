@@ -1,0 +1,26 @@
+.content {
+  padding-top: 10px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+
+  mat-form-field {
+    width: 100%;
+  }
+}
+
+.gender {
+  margin: 15px 0;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  margin: 0 16px 20px;
+
+  button {
+    flex: 1;
+  }
+}
