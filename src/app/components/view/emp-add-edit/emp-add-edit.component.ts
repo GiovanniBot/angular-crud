@@ -56,4 +56,10 @@ export class EmpAddEditComponent {
   education: string[] = [
     'High School', 'Bachelor', 'Master', 'PhD'
   ];
+
+  onFormSubmit() {
+    if(this.empForm.valid) {
+      console.log(this.empForm.value)
+    }
+  }
 }
